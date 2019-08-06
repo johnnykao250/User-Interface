@@ -1,0 +1,173 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+
+/* Your code starts here! */
+.container {
+    width: 900px;
+    margin: auto;
+    position:relative;
+}
+
+header nav {
+    display: inline-block;
+}
+
+    header nav a {
+        margin: 0 20px;
+    }
+
+    .middle {
+        display:inline-block;
+    }
+        .middle h2 {
+            font-size: 60px;
+            height: 100px;
+            text-align: center;
+            display: inline-block;
+        }
+
+
+.content12 p, .header12 h1{
+    display: inline-block;
+    width: 430px;
+    padding: 0,0,20px,0;
+}
+
+    .header12 h1{
+        padding: 0px;
+    }
+
+    .content345 p, .header345 h1 {
+        display: inline-block;
+        width: 250px;
+        
+    }
+
+.header345 h1 {
+    padding: 0px;
+    margin-top:20px;
+}
+
+.button {
+    display: inline;
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    background-color:white;
+  border: 1px solid black;
+  text-decoration:none;
+  margin-top:20px;
+}
+
+  
+
+    .middle{
+        position:relative;
+    }
+    
+    .textandbutton{
+        padding: 100px;
+        width:10px;
+        height: 470px;
+   
+    }
+
+        .textandbutton h2 {
+            padding: 0px;
+            width: 0px;
+            height: 0px;
+        }
+
+        .middle h2 {
+            width: 10px;
+        }
+
+.top-image {
+    position:absolute;
+    right: 30px;
+    top:60px;
+}
+
+.contact p{
+    margin-top:10px;
+}
+
+.contact h1{
+    margin-top:20px;
+}
+.container middle-image{
+    position:absolute;
+    right: 100px;
+}
+
+#verybottom{
+    margin-top:10px;
+    position:absolute;
+    right: 300px;
+}
